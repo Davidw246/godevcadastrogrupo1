@@ -12,8 +12,8 @@ public class DBConnectionTest {
 	@Test
 	public void testConnection() {
 		Session session = DBConnection.getSession();
-		assertNotNull(session);
-
+		assertNotNull(sessionf);
+asfsdf
 		// String url =
 		// "jdbc:postgresql://localhost/test?user=fred&password=secret&ssl=true";
 		// Connection conn = DriverManager.getConnection(url);
